@@ -1,0 +1,2519 @@
+{
+  "metadata": {
+    "filename": "8CAMOB_video_schematic.json",
+    "schematic_type": "BROADCAST_FACILITY",
+    "device_count": 25,
+    "cable_count": 110,
+    "connection_count": 110
+  },
+  "devices": [
+    {
+      "id": "CAM01",
+      "position": [
+        50,
+        50
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "CAM02",
+      "position": [
+        50,
+        150
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "CAM03",
+      "position": [
+        50,
+        250
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "CAM04",
+      "position": [
+        50,
+        350
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "CAM05",
+      "position": [
+        50,
+        450
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "CAM06",
+      "position": [
+        50,
+        550
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "CAM07",
+      "position": [
+        50,
+        650
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "CAM08",
+      "position": [
+        50,
+        750
+      ],
+      "category": "Camera",
+      "manufacturer": "SONY",
+      "model": "HDC-3500",
+      "ports": [
+        {
+          "name": "SDI-OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "SDI-OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "IOP-01",
+      "position": [
+        250,
+        400
+      ],
+      "category": "I/O Panel",
+      "manufacturer": "BFE",
+      "model": "IOP",
+      "ports": [
+        {
+          "name": "IN-01",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-02",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-03",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-04",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-05",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-06",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-07",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-08",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-09",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-10",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-11",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-12",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-13",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-14",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-15",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-16",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        }
+      ]
+    },
+    {
+      "id": "RTR-V-01",
+      "position": [
+        450,
+        400
+      ],
+      "category": "Router",
+      "manufacturer": "EVERTZ",
+      "model": "EQX-16",
+      "ports": [
+        {
+          "name": "A1",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "A2",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "A3",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "A4",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "A5",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "A6",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "A7",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "A8",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B1",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B2",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B3",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B4",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B5",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B6",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B7",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "B8",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "C1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "C2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "C3",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "C4",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "C5",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "C6",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "C7",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "C8",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D3",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D4",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D5",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D6",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D7",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "D8",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "GLUE",
+      "position": [
+        650,
+        400
+      ],
+      "category": "Video Processing",
+      "manufacturer": "EVERTZ",
+      "model": "7800-Frame",
+      "ports": [
+        {
+          "name": "IN-1",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-2",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-3",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-4",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-5",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-6",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-7",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN-8",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT-1",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT-2",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT-3",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT-4",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT-5",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT-6",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT-7",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT-8",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "VSW-01",
+      "position": [
+        850,
+        250
+      ],
+      "category": "Video Switcher",
+      "manufacturer": "GRASS VALLEY",
+      "model": "KAYENNE",
+      "ports": [
+        {
+          "name": "INPUT 1",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "INPUT 2",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "INPUT 3",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "INPUT 4",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "INPUT 5",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "INPUT 6",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "INPUT 7",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "INPUT 8",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        }
+      ]
+    },
+    {
+      "id": "MON-WFM-01",
+      "position": [
+        850,
+        550
+      ],
+      "category": "Monitoring",
+      "manufacturer": "TEKTRONIX",
+      "model": "WFM-700",
+      "ports": [
+        {
+          "name": "SDI-IN-A",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "SDI-IN-B",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "SDI-IN-C",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "SDI-IN-D",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        }
+      ]
+    },
+    {
+      "id": "VTR-01",
+      "position": [
+        1050,
+        150
+      ],
+      "category": "VTR",
+      "manufacturer": "SONY",
+      "model": "HDW-M2000",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "VTR-02",
+      "position": [
+        1050,
+        250
+      ],
+      "category": "VTR",
+      "manufacturer": "SONY",
+      "model": "HDW-M2000",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "VTR-03",
+      "position": [
+        1050,
+        350
+      ],
+      "category": "VTR",
+      "manufacturer": "SONY",
+      "model": "HDW-M2000",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "VTR-04",
+      "position": [
+        1050,
+        450
+      ],
+      "category": "VTR",
+      "manufacturer": "SONY",
+      "model": "HDW-M2000",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "SAT-RCV-01",
+      "position": [
+        1050,
+        550
+      ],
+      "category": "Receiver",
+      "manufacturer": "TANDBERG",
+      "model": "RX1290",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "SAT-RCV-02",
+      "position": [
+        1050,
+        650
+      ],
+      "category": "Receiver",
+      "manufacturer": "TANDBERG",
+      "model": "RX1290",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "SAT-RCV-03",
+      "position": [
+        1050,
+        750
+      ],
+      "category": "Receiver",
+      "manufacturer": "TANDBERG",
+      "model": "RX1290",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "SAT-RCV-04",
+      "position": [
+        1050,
+        850
+      ],
+      "category": "Receiver",
+      "manufacturer": "TANDBERG",
+      "model": "RX1290",
+      "ports": [
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "FS-01",
+      "position": [
+        1250,
+        300
+      ],
+      "category": "Frame Sync",
+      "manufacturer": "AJA",
+      "model": "FS1",
+      "ports": [
+        {
+          "name": "SDI-IN",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "FS-02",
+      "position": [
+        1250,
+        400
+      ],
+      "category": "Frame Sync",
+      "manufacturer": "AJA",
+      "model": "FS1",
+      "ports": [
+        {
+          "name": "SDI-IN",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "FS-03",
+      "position": [
+        1250,
+        500
+      ],
+      "category": "Frame Sync",
+      "manufacturer": "AJA",
+      "model": "FS1",
+      "ports": [
+        {
+          "name": "SDI-IN",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "FS-04",
+      "position": [
+        1250,
+        600
+      ],
+      "category": "Frame Sync",
+      "manufacturer": "AJA",
+      "model": "FS1",
+      "ports": [
+        {
+          "name": "SDI-IN",
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "SDI-OUT",
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": "V-001",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          50
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-002",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          150
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-003",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          250
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-004",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          350
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-005",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          450
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-006",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          550
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-007",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          650
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-008",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          750
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-009",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          50
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-010",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          150
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-011",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          250
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-012",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          350
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-013",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          450
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-014",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          550
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-015",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          650
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-016",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          50,
+          750
+        ],
+        [
+          250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-017",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-018",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-019",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-020",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-021",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-022",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-023",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-024",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-025",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-026",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-027",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-028",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-029",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-030",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-031",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-032",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-033",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-034",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-035",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-036",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-037",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-038",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-039",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-040",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          650,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-041",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-042",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-043",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-044",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-045",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-046",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-047",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-048",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          650,
+          400
+        ],
+        [
+          850,
+          250
+        ]
+      ]
+    },
+    {
+      "id": "V-049",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          850,
+          550
+        ]
+      ]
+    },
+    {
+      "id": "V-050",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          850,
+          550
+        ]
+      ]
+    },
+    {
+      "id": "V-051",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          850,
+          550
+        ]
+      ]
+    },
+    {
+      "id": "V-052",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          450,
+          400
+        ],
+        [
+          850,
+          550
+        ]
+      ]
+    },
+    {
+      "id": "V-053",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          150
+        ],
+        [
+          1250,
+          300
+        ]
+      ]
+    },
+    {
+      "id": "V-054",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          250
+        ],
+        [
+          1250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-055",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          350
+        ],
+        [
+          1250,
+          500
+        ]
+      ]
+    },
+    {
+      "id": "V-056",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          450
+        ],
+        [
+          1250,
+          600
+        ]
+      ]
+    },
+    {
+      "id": "V-057",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          550
+        ],
+        [
+          1250,
+          300
+        ]
+      ]
+    },
+    {
+      "id": "V-058",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          650
+        ],
+        [
+          1250,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-059",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          750
+        ],
+        [
+          1250,
+          500
+        ]
+      ]
+    },
+    {
+      "id": "V-060",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1050,
+          850
+        ],
+        [
+          1250,
+          600
+        ]
+      ]
+    },
+    {
+      "id": "V-061",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1250,
+          300
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-062",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1250,
+          400
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-063",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1250,
+          500
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    },
+    {
+      "id": "V-064",
+      "signal_type": "HD-SDI",
+      "endpoints": [
+        [
+          1250,
+          600
+        ],
+        [
+          450,
+          400
+        ]
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "cable_id": "V-001",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM01",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-01"
+      }
+    },
+    {
+      "cable_id": "V-002",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM02",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-02"
+      }
+    },
+    {
+      "cable_id": "V-003",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM03",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-03"
+      }
+    },
+    {
+      "cable_id": "V-004",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM04",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-04"
+      }
+    },
+    {
+      "cable_id": "V-005",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM05",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-05"
+      }
+    },
+    {
+      "cable_id": "V-006",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM06",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-06"
+      }
+    },
+    {
+      "cable_id": "V-007",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM07",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-07"
+      }
+    },
+    {
+      "cable_id": "V-008",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM08",
+        "port_name": "SDI-OUT-1"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-08"
+      }
+    },
+    {
+      "cable_id": "V-009",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM01",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-09"
+      }
+    },
+    {
+      "cable_id": "V-010",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM02",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-10"
+      }
+    },
+    {
+      "cable_id": "V-011",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM03",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-11"
+      }
+    },
+    {
+      "cable_id": "V-012",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM04",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-12"
+      }
+    },
+    {
+      "cable_id": "V-013",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM05",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-13"
+      }
+    },
+    {
+      "cable_id": "V-014",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM06",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-14"
+      }
+    },
+    {
+      "cable_id": "V-015",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM07",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-15"
+      }
+    },
+    {
+      "cable_id": "V-016",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "CAM08",
+        "port_name": "SDI-OUT-2"
+      },
+      "destination": {
+        "device_id": "IOP-01",
+        "port_name": "IN-16"
+      }
+    },
+    {
+      "cable_id": "V-017",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-01"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A1"
+      }
+    },
+    {
+      "cable_id": "V-018",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-02"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A2"
+      }
+    },
+    {
+      "cable_id": "V-019",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-03"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A3"
+      }
+    },
+    {
+      "cable_id": "V-020",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-04"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A4"
+      }
+    },
+    {
+      "cable_id": "V-021",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-05"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A5"
+      }
+    },
+    {
+      "cable_id": "V-022",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-06"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A6"
+      }
+    },
+    {
+      "cable_id": "V-023",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-07"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A7"
+      }
+    },
+    {
+      "cable_id": "V-024",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-08"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "A8"
+      }
+    },
+    {
+      "cable_id": "V-025",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-09"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B1"
+      }
+    },
+    {
+      "cable_id": "V-026",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-10"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B2"
+      }
+    },
+    {
+      "cable_id": "V-027",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-11"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B3"
+      }
+    },
+    {
+      "cable_id": "V-028",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-12"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B4"
+      }
+    },
+    {
+      "cable_id": "V-029",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-13"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B5"
+      }
+    },
+    {
+      "cable_id": "V-030",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-14"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B6"
+      }
+    },
+    {
+      "cable_id": "V-031",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-15"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B7"
+      }
+    },
+    {
+      "cable_id": "V-032",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "IOP-01",
+        "port_name": "IN-16"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "B8"
+      }
+    },
+    {
+      "cable_id": "V-033",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C1"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-1"
+      }
+    },
+    {
+      "cable_id": "V-034",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C2"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-2"
+      }
+    },
+    {
+      "cable_id": "V-035",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C3"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-3"
+      }
+    },
+    {
+      "cable_id": "V-036",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C4"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-4"
+      }
+    },
+    {
+      "cable_id": "V-037",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C5"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-5"
+      }
+    },
+    {
+      "cable_id": "V-038",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C6"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-6"
+      }
+    },
+    {
+      "cable_id": "V-039",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C7"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-7"
+      }
+    },
+    {
+      "cable_id": "V-040",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "C8"
+      },
+      "destination": {
+        "device_id": "GLUE",
+        "port_name": "IN-8"
+      }
+    },
+    {
+      "cable_id": "V-041",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-1"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 1"
+      }
+    },
+    {
+      "cable_id": "V-042",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-2"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 2"
+      }
+    },
+    {
+      "cable_id": "V-043",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-3"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 3"
+      }
+    },
+    {
+      "cable_id": "V-044",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-4"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 4"
+      }
+    },
+    {
+      "cable_id": "V-045",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-5"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 5"
+      }
+    },
+    {
+      "cable_id": "V-046",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-6"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 6"
+      }
+    },
+    {
+      "cable_id": "V-047",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-7"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 7"
+      }
+    },
+    {
+      "cable_id": "V-048",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "GLUE",
+        "port_name": "OUT-8"
+      },
+      "destination": {
+        "device_id": "VSW-01",
+        "port_name": "INPUT 8"
+      }
+    },
+    {
+      "cable_id": "V-049",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "D1"
+      },
+      "destination": {
+        "device_id": "MON-WFM-01",
+        "port_name": "SDI-IN-A"
+      }
+    },
+    {
+      "cable_id": "V-050",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "D2"
+      },
+      "destination": {
+        "device_id": "MON-WFM-01",
+        "port_name": "SDI-IN-B"
+      }
+    },
+    {
+      "cable_id": "V-051",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "D3"
+      },
+      "destination": {
+        "device_id": "MON-WFM-01",
+        "port_name": "SDI-IN-C"
+      }
+    },
+    {
+      "cable_id": "V-052",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "RTR-V-01",
+        "port_name": "D4"
+      },
+      "destination": {
+        "device_id": "MON-WFM-01",
+        "port_name": "SDI-IN-D"
+      }
+    },
+    {
+      "cable_id": "V-053",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "VTR-01",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-01",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-054",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "VTR-02",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-02",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-055",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "VTR-03",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-03",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-056",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "VTR-04",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-04",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-057",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "SAT-RCV-01",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-01",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-058",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "SAT-RCV-02",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-02",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-059",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "SAT-RCV-03",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-03",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-060",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "SAT-RCV-04",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "FS-04",
+        "port_name": "SDI-IN"
+      }
+    },
+    {
+      "cable_id": "V-061",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "FS-01",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "D5"
+      }
+    },
+    {
+      "cable_id": "V-062",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "FS-02",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "D6"
+      }
+    },
+    {
+      "cable_id": "V-063",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "FS-03",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "D7"
+      }
+    },
+    {
+      "cable_id": "V-064",
+      "signal_type": "HD-SDI",
+      "source": {
+        "device_id": "FS-04",
+        "port_name": "SDI-OUT"
+      },
+      "destination": {
+        "device_id": "RTR-V-01",
+        "port_name": "D8"
+      }
+    }
+  ]
+}

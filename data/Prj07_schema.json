@@ -1,0 +1,3672 @@
+{
+  "metadata": {
+    "filename": "UZB18_schematic.json",
+    "schematic_type": "BROADCAST_FACILITY",
+    "bounds": {
+      "min_x": 0,
+      "min_y": 0,
+      "max_x": 1250,
+      "max_y": 1050
+    },
+    "device_count": 36,
+    "cable_count": 71,
+    "connection_count": 71
+  },
+  "devices": [
+    {
+      "id": "U-HD-R-1",
+      "position": [
+        0,
+        0
+      ],
+      "category": "Routing",
+      "manufacturer": "Ross",
+      "model": "Ultrix",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 0,
+        "max_x": 200,
+        "min_y": 0,
+        "max_y": 200
+      },
+      "ports": [
+        {
+          "name": "IN 1",
+          "position": [
+            0,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 2",
+          "position": [
+            0,
+            25
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 3",
+          "position": [
+            0,
+            40
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 4",
+          "position": [
+            0,
+            55
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 5",
+          "position": [
+            0,
+            70
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 6",
+          "position": [
+            0,
+            85
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 7",
+          "position": [
+            0,
+            100
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 8",
+          "position": [
+            0,
+            115
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 9",
+          "position": [
+            0,
+            130
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 10",
+          "position": [
+            0,
+            145
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 11",
+          "position": [
+            0,
+            160
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 12",
+          "position": [
+            0,
+            175
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "IN 13",
+          "position": [
+            0,
+            190
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            200,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 2",
+          "position": [
+            200,
+            25
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 3",
+          "position": [
+            200,
+            40
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 4",
+          "position": [
+            200,
+            55
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 5",
+          "position": [
+            200,
+            70
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 6",
+          "position": [
+            200,
+            85
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 7",
+          "position": [
+            200,
+            100
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 8",
+          "position": [
+            200,
+            115
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 9",
+          "position": [
+            200,
+            130
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 10",
+          "position": [
+            200,
+            145
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 11",
+          "position": [
+            200,
+            160
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 12",
+          "position": [
+            200,
+            175
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        },
+        {
+          "name": "OUT 13",
+          "position": [
+            200,
+            190
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-1",
+      "position": [
+        250,
+        0
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 250,
+        "max_x": 450,
+        "min_y": 0,
+        "max_y": 200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            250,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            450,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-2",
+      "position": [
+        500,
+        0
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 500,
+        "max_x": 700,
+        "min_y": 0,
+        "max_y": 200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            500,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            700,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-3",
+      "position": [
+        750,
+        0
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 750,
+        "max_x": 950,
+        "min_y": 0,
+        "max_y": 200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            750,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            950,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-4",
+      "position": [
+        1000,
+        0
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1000,
+        "max_x": 1200,
+        "min_y": 0,
+        "max_y": 200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1000,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1200,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-5",
+      "position": [
+        0,
+        250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 0,
+        "max_x": 200,
+        "min_y": 250,
+        "max_y": 450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            0,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            200,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-6",
+      "position": [
+        250,
+        250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 250,
+        "max_x": 450,
+        "min_y": 250,
+        "max_y": 450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            250,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            450,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-7",
+      "position": [
+        500,
+        250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 500,
+        "max_x": 700,
+        "min_y": 250,
+        "max_y": 450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            500,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            700,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-8",
+      "position": [
+        750,
+        250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 750,
+        "max_x": 950,
+        "min_y": 250,
+        "max_y": 450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            750,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            950,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-9",
+      "position": [
+        1000,
+        250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1000,
+        "max_x": 1200,
+        "min_y": 250,
+        "max_y": 450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1000,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1200,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-10",
+      "position": [
+        0,
+        500
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 0,
+        "max_x": 200,
+        "min_y": 500,
+        "max_y": 700
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            0,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            200,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-11",
+      "position": [
+        250,
+        500
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 250,
+        "max_x": 450,
+        "min_y": 500,
+        "max_y": 700
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            250,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            450,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-12",
+      "position": [
+        500,
+        500
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 500,
+        "max_x": 700,
+        "min_y": 500,
+        "max_y": 700
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            500,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            700,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-13",
+      "position": [
+        750,
+        500
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 750,
+        "max_x": 950,
+        "min_y": 500,
+        "max_y": 700
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            750,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            950,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-14",
+      "position": [
+        1000,
+        500
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1000,
+        "max_x": 1200,
+        "min_y": 500,
+        "max_y": 700
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1000,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1200,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-15",
+      "position": [
+        0,
+        750
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 0,
+        "max_x": 200,
+        "min_y": 750,
+        "max_y": 950
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            0,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            200,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-16",
+      "position": [
+        250,
+        750
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 250,
+        "max_x": 450,
+        "min_y": 750,
+        "max_y": 950
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            250,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            450,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-17",
+      "position": [
+        500,
+        750
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 500,
+        "max_x": 700,
+        "min_y": 750,
+        "max_y": 950
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            500,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            700,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-18",
+      "position": [
+        750,
+        750
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 750,
+        "max_x": 950,
+        "min_y": 750,
+        "max_y": 950
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            750,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            950,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-19",
+      "position": [
+        1000,
+        750
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1000,
+        "max_x": 1200,
+        "min_y": 750,
+        "max_y": 950
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1000,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1200,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-20",
+      "position": [
+        1250,
+        750
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1250,
+        "max_x": 1450,
+        "min_y": 750,
+        "max_y": 950
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1250,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1450,
+            760
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-21",
+      "position": [
+        0,
+        1000
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 0,
+        "max_x": 200,
+        "min_y": 1000,
+        "max_y": 1200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            0,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            200,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-22",
+      "position": [
+        250,
+        1000
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 250,
+        "max_x": 450,
+        "min_y": 1000,
+        "max_y": 1200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            250,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            450,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-23",
+      "position": [
+        500,
+        1000
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 500,
+        "max_x": 700,
+        "min_y": 1000,
+        "max_y": 1200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            500,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            700,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-DA-24",
+      "position": [
+        750,
+        1000
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "SDI DA",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 750,
+        "max_x": 950,
+        "min_y": 1000,
+        "max_y": 1200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            750,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            950,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-1",
+      "position": [
+        1000,
+        1000
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1000,
+        "max_x": 1200,
+        "min_y": 1000,
+        "max_y": 1200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1000,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1200,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-2",
+      "position": [
+        1250,
+        1000
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1250,
+        "max_x": 1450,
+        "min_y": 1000,
+        "max_y": 1200
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1250,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1450,
+            1010
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-3",
+      "position": [
+        0,
+        1250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 0,
+        "max_x": 200,
+        "min_y": 1250,
+        "max_y": 1450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            0,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            200,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-4",
+      "position": [
+        250,
+        1250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 250,
+        "max_x": 450,
+        "min_y": 1250,
+        "max_y": 1450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            250,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            450,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-5",
+      "position": [
+        500,
+        1250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 500,
+        "max_x": 700,
+        "min_y": 1250,
+        "max_y": 1450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            500,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            700,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-6",
+      "position": [
+        750,
+        1250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 750,
+        "max_x": 950,
+        "min_y": 1250,
+        "max_y": 1450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            750,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            950,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-7",
+      "position": [
+        1000,
+        1250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1000,
+        "max_x": 1200,
+        "min_y": 1250,
+        "max_y": 1450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1000,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1200,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-FS-8",
+      "position": [
+        1250,
+        1250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "FS",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1250,
+        "max_x": 1450,
+        "min_y": 1250,
+        "max_y": 1450
+      },
+      "ports": [
+        {
+          "name": "IN",
+          "position": [
+            1250,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "INPUT"
+        },
+        {
+          "name": "OUT 1",
+          "position": [
+            1450,
+            1260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-MB-1",
+      "position": [
+        1250,
+        500
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "Multiviewer",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1250,
+        "max_x": 1450,
+        "min_y": 500,
+        "max_y": 700
+      },
+      "ports": [
+        {
+          "name": "OUT 1",
+          "position": [
+            1450,
+            510
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-MB-2",
+      "position": [
+        1250,
+        250
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "Multiviewer",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1250,
+        "max_x": 1450,
+        "min_y": 250,
+        "max_y": 450
+      },
+      "ports": [
+        {
+          "name": "OUT 1",
+          "position": [
+            1450,
+            260
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "id": "U-HD-MB-3",
+      "position": [
+        1250,
+        0
+      ],
+      "category": "Signal Processing",
+      "manufacturer": "Ross",
+      "model": "Multiviewer",
+      "rack_position": "",
+      "boundary": {
+        "min_x": 1250,
+        "max_x": 1450,
+        "min_y": 0,
+        "max_y": 200
+      },
+      "ports": [
+        {
+          "name": "OUT 1",
+          "position": [
+            1450,
+            10
+          ],
+          "connector_type": "BNC",
+          "direction": "OUTPUT"
+        }
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": "V-001",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          10
+        ],
+        [
+          250,
+          10
+        ]
+      ],
+      "primary_position": [
+        200,
+        10
+      ]
+    },
+    {
+      "id": "V-002",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          25
+        ],
+        [
+          500,
+          10
+        ]
+      ],
+      "primary_position": [
+        200,
+        25
+      ]
+    },
+    {
+      "id": "V-003",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          40
+        ],
+        [
+          750,
+          10
+        ]
+      ],
+      "primary_position": [
+        200,
+        40
+      ]
+    },
+    {
+      "id": "V-004",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          55
+        ],
+        [
+          1000,
+          10
+        ]
+      ],
+      "primary_position": [
+        200,
+        55
+      ]
+    },
+    {
+      "id": "V-005",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          70
+        ],
+        [
+          0,
+          260
+        ]
+      ],
+      "primary_position": [
+        200,
+        70
+      ]
+    },
+    {
+      "id": "V-006",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          85
+        ],
+        [
+          250,
+          260
+        ]
+      ],
+      "primary_position": [
+        200,
+        85
+      ]
+    },
+    {
+      "id": "V-007",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          100
+        ],
+        [
+          500,
+          260
+        ]
+      ],
+      "primary_position": [
+        200,
+        100
+      ]
+    },
+    {
+      "id": "V-008",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          115
+        ],
+        [
+          750,
+          260
+        ]
+      ],
+      "primary_position": [
+        200,
+        115
+      ]
+    },
+    {
+      "id": "V-009",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          130
+        ],
+        [
+          1000,
+          260
+        ]
+      ],
+      "primary_position": [
+        200,
+        130
+      ]
+    },
+    {
+      "id": "V-010",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          145
+        ],
+        [
+          0,
+          510
+        ]
+      ],
+      "primary_position": [
+        200,
+        145
+      ]
+    },
+    {
+      "id": "V-011",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          160
+        ],
+        [
+          250,
+          510
+        ]
+      ],
+      "primary_position": [
+        200,
+        160
+      ]
+    },
+    {
+      "id": "V-012",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          175
+        ],
+        [
+          500,
+          510
+        ]
+      ],
+      "primary_position": [
+        200,
+        175
+      ]
+    },
+    {
+      "id": "V-013",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          190
+        ],
+        [
+          750,
+          510
+        ]
+      ],
+      "primary_position": [
+        200,
+        190
+      ]
+    },
+    {
+      "id": "V-014",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          450,
+          10
+        ],
+        [
+          0,
+          10
+        ]
+      ],
+      "primary_position": [
+        450,
+        10
+      ]
+    },
+    {
+      "id": "V-015",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          700,
+          10
+        ],
+        [
+          0,
+          25
+        ]
+      ],
+      "primary_position": [
+        700,
+        10
+      ]
+    },
+    {
+      "id": "V-016",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          950,
+          10
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "primary_position": [
+        950,
+        10
+      ]
+    },
+    {
+      "id": "V-017",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1200,
+          10
+        ],
+        [
+          0,
+          55
+        ]
+      ],
+      "primary_position": [
+        1200,
+        10
+      ]
+    },
+    {
+      "id": "V-018",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          260
+        ],
+        [
+          0,
+          70
+        ]
+      ],
+      "primary_position": [
+        200,
+        260
+      ]
+    },
+    {
+      "id": "V-019",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          450,
+          260
+        ],
+        [
+          0,
+          85
+        ]
+      ],
+      "primary_position": [
+        450,
+        260
+      ]
+    },
+    {
+      "id": "V-020",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          700,
+          260
+        ],
+        [
+          0,
+          100
+        ]
+      ],
+      "primary_position": [
+        700,
+        260
+      ]
+    },
+    {
+      "id": "V-021",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          950,
+          260
+        ],
+        [
+          0,
+          115
+        ]
+      ],
+      "primary_position": [
+        950,
+        260
+      ]
+    },
+    {
+      "id": "V-022",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1200,
+          260
+        ],
+        [
+          0,
+          130
+        ]
+      ],
+      "primary_position": [
+        1200,
+        260
+      ]
+    },
+    {
+      "id": "V-023",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          510
+        ],
+        [
+          0,
+          145
+        ]
+      ],
+      "primary_position": [
+        200,
+        510
+      ]
+    },
+    {
+      "id": "V-024",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          450,
+          510
+        ],
+        [
+          0,
+          160
+        ]
+      ],
+      "primary_position": [
+        450,
+        510
+      ]
+    },
+    {
+      "id": "V-025",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          700,
+          510
+        ],
+        [
+          0,
+          175
+        ]
+      ],
+      "primary_position": [
+        700,
+        510
+      ]
+    },
+    {
+      "id": "V-026",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          950,
+          510
+        ],
+        [
+          0,
+          190
+        ]
+      ],
+      "primary_position": [
+        950,
+        510
+      ]
+    },
+    {
+      "id": "V-027",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1200,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1200,
+        510
+      ]
+    },
+    {
+      "id": "V-028",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1450,
+          510
+        ],
+        [
+          0,
+          760
+        ]
+      ],
+      "primary_position": [
+        1450,
+        510
+      ]
+    },
+    {
+      "id": "V-029",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1450,
+          260
+        ],
+        [
+          250,
+          760
+        ]
+      ],
+      "primary_position": [
+        1450,
+        260
+      ]
+    },
+    {
+      "id": "V-030",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1450,
+          10
+        ],
+        [
+          500,
+          760
+        ]
+      ],
+      "primary_position": [
+        1450,
+        10
+      ]
+    },
+    {
+      "id": "V-031",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          760
+        ],
+        [
+          750,
+          760
+        ]
+      ],
+      "primary_position": [
+        200,
+        760
+      ]
+    },
+    {
+      "id": "V-032",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          450,
+          760
+        ],
+        [
+          1000,
+          760
+        ]
+      ],
+      "primary_position": [
+        450,
+        760
+      ]
+    },
+    {
+      "id": "V-033",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          700,
+          760
+        ],
+        [
+          1250,
+          760
+        ]
+      ],
+      "primary_position": [
+        700,
+        760
+      ]
+    },
+    {
+      "id": "V-034",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          950,
+          760
+        ],
+        [
+          0,
+          1010
+        ]
+      ],
+      "primary_position": [
+        950,
+        760
+      ]
+    },
+    {
+      "id": "V-035",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1200,
+          760
+        ],
+        [
+          250,
+          1010
+        ]
+      ],
+      "primary_position": [
+        1200,
+        760
+      ]
+    },
+    {
+      "id": "V-036",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1450,
+          760
+        ],
+        [
+          500,
+          1010
+        ]
+      ],
+      "primary_position": [
+        1450,
+        760
+      ]
+    },
+    {
+      "id": "V-037",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          1010
+        ],
+        [
+          750,
+          1010
+        ]
+      ],
+      "primary_position": [
+        200,
+        1010
+      ]
+    },
+    {
+      "id": "V-038",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          450,
+          1010
+        ],
+        [
+          1000,
+          1010
+        ]
+      ],
+      "primary_position": [
+        450,
+        1010
+      ]
+    },
+    {
+      "id": "V-039",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          700,
+          1010
+        ],
+        [
+          1250,
+          1010
+        ]
+      ],
+      "primary_position": [
+        700,
+        1010
+      ]
+    },
+    {
+      "id": "V-040",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          950,
+          1010
+        ],
+        [
+          0,
+          1260
+        ]
+      ],
+      "primary_position": [
+        950,
+        1010
+      ]
+    },
+    {
+      "id": "V-041",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1200,
+          1010
+        ],
+        [
+          250,
+          1260
+        ]
+      ],
+      "primary_position": [
+        1200,
+        1010
+      ]
+    },
+    {
+      "id": "V-042",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1450,
+          1010
+        ],
+        [
+          500,
+          1260
+        ]
+      ],
+      "primary_position": [
+        1450,
+        1010
+      ]
+    },
+    {
+      "id": "V-043",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          200,
+          1260
+        ],
+        [
+          750,
+          1260
+        ]
+      ],
+      "primary_position": [
+        200,
+        1260
+      ]
+    },
+    {
+      "id": "V-044",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          450,
+          1260
+        ],
+        [
+          1000,
+          1260
+        ]
+      ],
+      "primary_position": [
+        450,
+        1260
+      ]
+    },
+    {
+      "id": "V-045",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          700,
+          1260
+        ],
+        [
+          1250,
+          1260
+        ]
+      ],
+      "primary_position": [
+        700,
+        1260
+      ]
+    },
+    {
+      "id": "V-046",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          950,
+          1260
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        950,
+        1260
+      ]
+    },
+    {
+      "id": "V-047",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1200,
+          1260
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1200,
+        1260
+      ]
+    },
+    {
+      "id": "V-048",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1450,
+          1260
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1450,
+        1260
+      ]
+    },
+    {
+      "id": "V-049",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-050",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-051",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-052",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-053",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-054",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-055",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-056",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-057",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-058",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-059",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-060",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-061",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-062",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-063",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-064",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-065",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-066",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-067",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-068",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-069",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-070",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    },
+    {
+      "id": "V-071",
+      "signal_type": "SDI",
+      "endpoints": [
+        [
+          1000,
+          510
+        ],
+        [
+          1000,
+          510
+        ]
+      ],
+      "primary_position": [
+        1000,
+        510
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "cable_id": "V-001",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-1",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-002",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 2"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-2",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-003",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 3"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-3",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-004",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 4"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-4",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-005",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 5"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-5",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-006",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 6"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-6",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-007",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 7"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-7",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-008",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 8"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-8",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-009",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 9"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-9",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-010",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 10"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-10",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-011",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 11"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-11",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-012",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 12"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-12",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-013",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-R-1",
+        "port_name": "OUT 13"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-13",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-014",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-1",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 1"
+      }
+    },
+    {
+      "cable_id": "V-015",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-2",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 2"
+      }
+    },
+    {
+      "cable_id": "V-016",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-3",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 3"
+      }
+    },
+    {
+      "cable_id": "V-017",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-4",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 4"
+      }
+    },
+    {
+      "cable_id": "V-018",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-5",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 5"
+      }
+    },
+    {
+      "cable_id": "V-019",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-6",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 6"
+      }
+    },
+    {
+      "cable_id": "V-020",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-7",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 7"
+      }
+    },
+    {
+      "cable_id": "V-021",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-8",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 8"
+      }
+    },
+    {
+      "cable_id": "V-022",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-9",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 9"
+      }
+    },
+    {
+      "cable_id": "V-023",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-10",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 10"
+      }
+    },
+    {
+      "cable_id": "V-024",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-11",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 11"
+      }
+    },
+    {
+      "cable_id": "V-025",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-12",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 12"
+      }
+    },
+    {
+      "cable_id": "V-026",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-13",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-R-1",
+        "port_name": "IN 13"
+      }
+    },
+    {
+      "cable_id": "V-027",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-028",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-MB-1",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-15",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-029",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-MB-2",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-16",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-030",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-MB-3",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-17",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-031",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-15",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-18",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-032",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-16",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-19",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-033",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-17",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-20",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-034",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-18",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-21",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-035",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-19",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-22",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-036",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-20",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-23",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-037",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-21",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-24",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-038",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-22",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-1",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-039",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-23",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-2",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-040",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-24",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-3",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-041",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-1",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-4",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-042",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-2",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-5",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-043",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-3",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-6",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-044",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-4",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-7",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-045",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-5",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-FS-8",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-046",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-6",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-047",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-7",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-048",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-FS-8",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-049",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-050",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-051",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-052",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-053",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-054",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-055",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-056",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-057",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-058",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-059",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-060",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-061",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-062",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-063",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-064",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-065",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-066",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-067",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-068",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-069",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-070",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    },
+    {
+      "cable_id": "V-071",
+      "signal_type": "SDI",
+      "source": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "OUT 1"
+      },
+      "destination": {
+        "device_id": "U-HD-DA-14",
+        "port_name": "IN"
+      }
+    }
+  ]
+}
