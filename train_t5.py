@@ -113,7 +113,7 @@ def main():
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
 
     training_args = Seq2SeqTrainingArguments(
-        output_dir=OUTPUT_dir,
+        output_dir=OUTPUT_DIR,
         num_train_epochs=40, # Increased epochs as requested
         per_device_train_batch_size=1,
         per_device_eval_batch_size=2, # Can be larger for evaluation
@@ -122,7 +122,7 @@ def main():
         fp16=True, # Use mixed precision for speed
         logging_steps=50,
         save_total_limit=2, # Save only the best and the last checkpoint
-        evaluation_strategy="epoch", # Evaluate at the end of each epoch
+        eval_strategy="epoch", # CORRECTED: Renamed from evaluation_strategy for compatibility
         save_strategy="epoch", # Save at the end of each epoch
         load_best_model_at_end=True, # Load the best model based on eval loss
         metric_for_best_model="eval_loss",
