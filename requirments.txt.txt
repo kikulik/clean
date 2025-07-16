@@ -1,0 +1,7 @@
+# requirements.txt
+torch
+transformers
+datasets
+accelerate
+sentencepiece
+scikit-learn
