@@ -115,16 +115,15 @@ def main():
         per_device_train_batch_size=1,
         per_device_eval_batch_size=2,
         gradient_accumulation_steps=8,
-        # ------------------- FIX -------------------
-        # This is the key to preventing exploding gradients.
-        # It caps the norm of the gradients at 1.0.
         max_grad_norm=1.0,
-        # -------------------------------------------
         learning_rate=1e-4,
         fp16=True,
         logging_steps=50,
         save_total_limit=2,
-        evaluation_strategy="epoch", # Correct argument name
+        # --- FIX ---
+        # Renamed 'evaluation_strategy' to 'eval_strategy' for compatibility
+        # with the current version of the transformers library.
+        eval_strategy="epoch",
         save_strategy="epoch",
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
@@ -195,7 +194,7 @@ def run_inference(tokenizer, instruction):
             raise json.JSONDecodeError("No JSON object found in the output.", generated_text, 0)
     except json.JSONDecodeError as e:
         print(f"🔴 Could not decode the generated string into valid JSON. Error: {e}")
-        print("   Raw output:", generated_text)
+        print("    Raw output:", generated_text)
 
 if __name__ == "__main__":
     main()
